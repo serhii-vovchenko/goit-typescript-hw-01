@@ -3,6 +3,21 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
+import './basic/task-1.ts'
+import './basic/task-2.ts'
+import './basic/task-3.ts'
+import './basic/task-4.ts'
+import './basic/task-5.ts'
+import './basic/task-6.ts'
+import './basic/task-7.ts'
+
+import './generics/task-1.ts'
+import './generics/task-2.ts'
+import './generics/task-3.ts'
+import './generics/task-4.ts'
+import './generics/task-5.ts'
+import './generics/task-6.ts'
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
